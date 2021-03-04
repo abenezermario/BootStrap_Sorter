@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.min.css"/>
     <link rel="stylesheet" href="https://rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css"/>
+ 
 
 </head>
 <body>
     <div class="container">
-        <h1>Bootstrap Table</h1>
-        <p> Mémo pour les options du Bootstrap Table : <a href="http://bootstrap-table.wenzhixin.net.cn/documentation/">Bootstrap Table Documentation</a></p>
-        <p>Eléments de Bootstrap Table utilisés : <a href="http://jsfiddle.net/wenyi/e3nk137y/3178/">Data Checkbox</a>, pour cocher les éléments à sélectionner, <a href="https://github.com/wenzhixin/bootstrap-table-examples/blob/master/extensions/filter-control.html">extension Filter control</a>, pour les filtres via les colonnes, <a href="https://github.com/kayalshri/tableExport.jquery.plugin">extension Data export</a> pour exporter</p>
+        <h1>MEDICAL REPORT</h1>
+        <p>DATA FROM USERS IS DISPLAYED HERE</p>
+        <p>use the filter to sort out data</p>
         
         <div id="toolbar">
                 <select class="form-control">
@@ -35,9 +36,9 @@
             <thead>
                 <tr>
                     <th data-field="state" data-checkbox="true"></th>
-                    <th data-field="prenom" data-filter-control="input" data-sortable="true">Prénom</th>
-                    <th data-field="date" data-filter-control="select" data-sortable="true">Date</th>
-                    <th data-field="examen" data-filter-control="select" data-sortable="true">Examen</th>
+                    <th data-field="Activity" data-filter-control="input" data-sortable="true">Activity</th>
+                    <th data-field="Data" data-filter-control="select" data-sortable="true">Data</th>
+                    <th data-field="Percentile" data-filter-control="select" data-sortable="true">Percentile</th>
                     <th data-field="note" data-sortable="true">Note</th>
                 </tr>
             </thead>
@@ -113,7 +114,7 @@
                     <td>12/20</td>
                 </tr>
                 <tr>
-                    <td class="bs-checkbox "><input data-index="10" name="btSelectItem" type="checkbox"></td>
+                    <td class="bs-checkbox "><input data-index="ex10" name="btSelectItem" type="checkbox"></td>
                     <td>Eric</td>
                     <td>07/09/2015</td>
                     <td>Mathématiques</td>
@@ -135,6 +136,5 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/editable/bootstrap-table-editable.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/export/bootstrap-table-export.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/filter-control/bootstrap-table-filter-control.js"></script>
-
 </body>
 </html>

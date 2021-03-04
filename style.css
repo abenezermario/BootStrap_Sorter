@@ -1,6 +1,7 @@
 .container {
 	width: 1024px;
 	padding: 2em;
+    font-family: monospace;
 }
 
 .bold-blue {
