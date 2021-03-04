@@ -8,3 +8,15 @@
 	font-weight: bold;
 	color: #0277BD;
 }
+progress {
+	-webkit-appearance: none;
+	
+}
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #8ef;
+    z-index: -1;
+}
